@@ -1,3 +1,5 @@
+---create starting table from python jupyten notebbok queries (not included)
+
 create or replace table UZIS_EXPORT_LISTOPAD_UPRAVENO as
 SELECT row_number() over (order by "ZdravotnickeZarizeniId") as rowid
 		,"ZdravotnickeZarizeniId" AS ZDRAVOTNICKEZARIZENIID
